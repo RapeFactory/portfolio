@@ -1,31 +1,30 @@
 .header
-  background-color: #cdf
+  background-color: plum
   transition: background-color 0.25s ease
-  margin: auto
-  margin: 10px
-  border-radius: 20px
   padding: 
     left: 50px
     right: 50px
+  grid-auto-rows: auto
 
   &:hover
-    background-color: #baf
+    background-color: darken(plum, 8%)
+    h1
+      color: darken(plum, 36%)
+    p
+      color: darken(#000, 20%)
 
   h1
-    color: #87c
+    transition: color 0.25s ease
+    color: plum
     font-size: 2em
     display:  block
     margin: 0
+    align-self: center
+  
+  p
+    margin: 0
+    font-size: 18px
+    color: #222
+    display: block
+    align-self: center
 
-  img
-    justify-self: center
-
-.logo
-  animation: App-logo-spin infinite 20s linear
-  height: 80px
-
-@keyframes App-logo-spin 
-  from
-    transform: rotate(0deg)
-  to
-    transform: rotate(360deg)
