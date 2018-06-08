@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import GitHub from './GitHub.png';
+import Mark from './Mark.svg';
 import './Contacts.css';
 
 class Contacts extends Component {
@@ -7,7 +7,7 @@ class Contacts extends Component {
     return (
       <div className="contacts">
         <a href="http://github.com/RapeFactory" about="GitHub">
-          <img src={GitHub} alt="GitHub"/>
+          <img src={Mark} alt="GitHub"/>
         </a>
       </div>
     );
